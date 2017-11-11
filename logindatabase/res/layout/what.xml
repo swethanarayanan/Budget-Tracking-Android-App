@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/about" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="About" android:paddingLeft="53pt" android:paddingTop="10pt" android:paddingBottom="10pt"></TextView>
+    <TextView android:id="@+id/aboutcontent" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="fill_parent" android:text="Virtual wallet is your own personalised budget-tracking service.The only goal is to keep track of your expenses and make sure you stick to your budget! First, you will want to add a budget amount to track your spending for say,a month. Now,whenever you buy that cup of coffee or a piece of cake,make a note of it.Finally,you can view your spending and see if you are sticking to your goals.Additionally, you get bonus points if you stick to your budget at the end of the month. So, get started! Saving money can get as easy as this!" android:layout_weight="1" android:layout_width="match_parent"></TextView>
+    <Button android:text="Ok" android:id="@+id/aboutok" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    
+</LinearLayout>

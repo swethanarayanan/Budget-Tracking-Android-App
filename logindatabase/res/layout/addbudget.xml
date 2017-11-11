@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/tv1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Add a budget" android:paddingLeft="35pt" android:paddingTop="10pt" android:paddingBottom="10pt" ></TextView>
+    <TextView android:id="@+id/tv2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="fill_parent" android:text="Enter the name of the budget:" android:layout_height="wrap_content" android:layout_weight="0.07"></TextView>
+    <EditText android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/tv3" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="fill_parent" android:text="Enter the spending limit :" android:layout_height="wrap_content" android:paddingTop="10pt" android:layout_weight="0.07"></TextView>
+    <EditText android:id="@+id/spendinglimit" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number"></EditText>
+    <Button android:text="Done" android:id="@+id/done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="25pt"></Button>
+    
+</LinearLayout>

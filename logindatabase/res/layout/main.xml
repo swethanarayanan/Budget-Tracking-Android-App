@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/relativeLayout1"></RelativeLayout>
+<TextView android:id="@+id/Title" android:layout_height="wrap_content" android:text="Virtual Wallet" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_weight="0.08" android:paddingLeft="35pt" android:paddingTop="4pt"></TextView>
+<TextView android:id="@+id/text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Having trouble sticking to your budget? Not able to track your expenses? Fret not! Virtual Wallet is here to help! Just enter your username and password ." android:padding="10pt"></TextView>
+<TextView android:layout_width="114dp" android:layout_height="wrap_content" android:text="User Name" android:layout_weight="0.06" android:id="@+id/Username1" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+<EditText android:id="@+id/username1" android:layout_height="wrap_content" android:layout_width="246dp">
+    <requestFocus></requestFocus>
+</EditText>
+<TextView android:id="@+id/Password1" android:layout_height="wrap_content" android:text="Password" android:layout_weight="0.06" android:layout_width="114dp" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+<EditText android:id="@+id/password1" android:inputType="textPassword" android:layout_width="246dp" android:layout_height="wrap_content"></EditText>
+<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+    <Button android:layout_width="wrap_content" android:id="@+id/login" android:layout_height="wrap_content" android:text="Login"></Button>
+    <CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox" android:text="Keep me logged in" android:layout_height="match_parent"></CheckBox>
+</LinearLayout>
+
+<TextView android:id="@+id/newuser" android:layout_height="wrap_content" android:text="New User? Sign up!" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+<Button android:text="Sign Up" android:id="@+id/signup1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

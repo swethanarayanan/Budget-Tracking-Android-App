@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Add expense" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:padding="10pt" android:layout_marginLeft="25pt"></TextView>
+    <FrameLayout android:id="@+id/frameLayout1" android:layout_height="wrap_content" android:layout_width="match_parent"></FrameLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="match_parent"></RelativeLayout>
+    <TextView android:text="Choose a category" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2"></TextView>
+    <Spinner android:id="@+id/category" android:layout_height="wrap_content" android:layout_width="match_parent"></Spinner>
+    <TextView android:text="Enter amount" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/amount" android:inputType="numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:text="Done" android:id="@+id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50pt" android:layout_marginTop="20pt"></Button>
+    
+    
+</LinearLayout>
